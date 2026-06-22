@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { box-sizing: border-box; }
+html { background: #f5fafc; }
+body { margin: 0; color: #17222a; background: radial-gradient(circle at 15% 5%, #ffffff 0, #f5fafc 48%, #e5f1f6 100%); }
+button, input { font: inherit; }
+::selection { background: #d7eaf3; color: #2b5f7d; }
+::-webkit-scrollbar { width: 0; height: 0; }
+.safe-bottom { padding-bottom: max(1rem, env(safe-area-inset-bottom)); }
+.map-grid { background-color: #edf6fa; background-image: linear-gradient(rgba(255,255,255,.9) 2px, transparent 2px), linear-gradient(90deg, rgba(255,255,255,.9) 2px, transparent 2px), linear-gradient(rgba(63,127,166,.06) 1px, transparent 1px), linear-gradient(90deg, rgba(63,127,166,.06) 1px, transparent 1px); background-size: 82px 82px, 82px 82px, 18px 18px, 18px 18px; }

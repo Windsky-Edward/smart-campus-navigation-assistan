@@ -1,0 +1,20 @@
+{
+  "student": {
+    "name": "Aisha Rahman",
+    "matrixNumber": "GS62814",
+    "faculty": "Faculty of Computer Science and Information Technology",
+    "programme": "Bachelor of Software Engineering"
+  },
+  "courses": [
+    { "id": "1", "code": "SSE3200", "name": "Software Engineering", "roomCode": "FSKTM A1-02", "time": "10:00 AM", "endTime": "11:50 AM", "status": "next" },
+    { "id": "2", "code": "SSE3301", "name": "Human Computer Interaction", "roomCode": "DKAP C2", "time": "2:00 PM", "endTime": "3:50 PM", "status": "later" },
+    { "id": "3", "code": "MGM3180", "name": "Technology Entrepreneurship", "roomCode": "DEWAN B", "time": "4:00 PM", "endTime": "5:50 PM", "status": "later" }
+  ],
+  "locations": [
+    { "id": "fsktm", "shortName": "FSKTM", "fullName": "Faculty of Computer Science and Information Technology", "code": "FSKTM A1-02", "block": "Block A1", "level": "Level 2", "room": "Room A1-02", "category": "Faculty", "distance": "350 m", "eta": "5 min", "landmarks": ["Located behind the Central Library", "Grey glass building", "Enter through the main entrance"], "keywords": ["computer science", "software engineering", "sse3200", "faculty computing", "a1-02"] },
+    { "id": "dkap", "shortName": "DKAP", "fullName": "Academic Complex Central Lecture Hall", "code": "DKAP C2", "block": "Block C", "level": "Level 2", "room": "Lecture Hall C2", "category": "Lecture Hall", "distance": "620 m", "eta": "9 min", "landmarks": ["Opposite the Faculty of Engineering", "Large cream-coloured complex", "Use the east entrance"], "keywords": ["lecture hall", "human computer interaction", "sse3301", "dewan kuliah"] },
+    { "id": "iputra", "shortName": "I-PUTRA", "fullName": "International Students Centre", "code": "I-PUTRA", "category": "Student Services", "distance": "800 m", "eta": "11 min", "landmarks": ["Near the Great Hall", "Red and white signage", "Visitor desk on ground floor"], "keywords": ["international", "visa", "student centre", "passport"] },
+    { "id": "dewan", "shortName": "DEWAN", "fullName": "Dewan Besar UPM", "code": "DEWAN B", "block": "Main Hall", "level": "Ground Floor", "room": "Hall B", "category": "Event Hall", "distance": "1.1 km", "eta": "15 min", "landmarks": ["Next to the clock tower", "Large ceremonial entrance", "Use the south lobby"], "keywords": ["hall", "convocation", "technology entrepreneurship", "mgm3180"] },
+    { "id": "library", "shortName": "Central Library", "fullName": "Sultan Abdul Samad Library", "code": "PSAS", "category": "Library", "distance": "180 m", "eta": "3 min", "landmarks": ["Central campus roundabout", "Brown brick facade", "Main steps face the lake"], "keywords": ["library", "psas", "perpustakaan", "sultan abdul samad"] }
+  ]
+}
